@@ -25,7 +25,9 @@
 ###
 
 <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=vscode&theme=dark&perline=15" alt="My Skills" /></a>
-
+<a target="_blank" align="center">
+  <img align="right" width="500" alt="LiveServer" src="https://raw.githubusercontent.com/kevinmelecio7/JavaScript_Projects/refs/heads/main/Live%20Server%20Extension.jpg" >
+</a>
 <p align="left">Visual Studio Code offer many useful features for programmers, for example: debugging, Git integration and a wide variety of extensions. For the projects shown, I used an extension called "Live Server". This extension allows you to launch a local development server with real-time reloading. This means that every time you save changes to your code, the browser automatically refresh to display those changes without having to manually reload. </p>
 
 <br/>
