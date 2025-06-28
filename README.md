@@ -16,6 +16,18 @@
 [![Programming](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
 
 <p align="left">These are some projects made with JavaScript, I like to practice this language with exercises that can be applied to many systems </p>
+
+<br/>
+
+
+<h2 align="left">🚀 Tools</h2>
+
+###
+
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=vscode&theme=dark&perline=15" alt="My Skills" /></a>
+
+<p align="left">Visual Studio Code offer many useful features for programmers, for example: debugging, Git integration and a wide variety of extensions. For the projects shown, I used an extension called "Live Server". This extension allows you to launch a local development server with real-time reloading. This means that every time you save changes to your code, the browser automatically refresh to display those changes without having to manually reload. </p>
+
 <br/>
 
 ## 📑 Contents
