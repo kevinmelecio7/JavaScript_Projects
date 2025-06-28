@@ -20,7 +20,7 @@
 <br/>
 
 
-<h2 align="left">🚀 Tools</h2>
+<h2 align="left">🛠️ Tools</h2>
 
 ###
 
@@ -29,8 +29,13 @@
   <img align="right" width="500" alt="LiveServer" src="https://raw.githubusercontent.com/kevinmelecio7/JavaScript_Projects/refs/heads/main/Live%20Server%20Extension.jpg" >
 </a>
 <p align="left">Visual Studio Code offer many useful features for programmers, for example: debugging, Git integration and a wide variety of extensions. For the projects shown, I used an extension called "Live Server". This extension allows you to launch a local development server with real-time reloading. This means that every time you save changes to your code, the browser automatically refresh to display those changes without having to manually reload. </p>
-
+<a target="_blank" align="center">
+  <img align="right" width="300" alt="LiveServer" src="https://raw.githubusercontent.com/kevinmelecio7/JavaScript_Projects/refs/heads/main/Live%20Server%20Extension%20Use.jpg" >
+</a>
 <br/>
+<p align="left">To use the extension, you'll need to click on the main HTML file you want to view. Click "Open with Live Server." Your browser will then open with the designs created in the projects. </p>
+
+<br/><br/><br/><br/><br/><br/><br/>
 
 ## 📑 Contents
 
