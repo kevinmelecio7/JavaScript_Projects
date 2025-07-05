@@ -5,6 +5,7 @@ const vaciarCarritoBtn = document.querySelector('#vaciar-carrito');             
 const listaCursos = document.querySelector('#lista-cursos');                        //lista de los cursos (CARDS)
 let articulosCarrito = [];                                                          //Arreglo del carrito
 
+
 cargarEventListeners()
 function cargarEventListeners(){
     listaCursos.addEventListener('click',agregarCurso); //Cuando el usuario da clic en el boton de "Agregar al carrito"
