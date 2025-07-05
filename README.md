@@ -47,9 +47,21 @@
 
 ## 🛒 Shopping Cart
 
-La API incluye Swagger UI para probar los endpoints.
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kevinmelecio7/WebAPI-Swagger/master/API_screenshot.png" width="700" />
-</p>
+<a target="_blank" align="center">
+  <img align="right" width="500" alt="LiveServer" src="https://raw.githubusercontent.com/kevinmelecio7/JavaScript_Projects/refs/heads/main/15-PROYECTO-Carrito/ShoppingCart_1.jpg" >
+</a>
+<a target="_blank" align="center">
+  <img align="right" width="500" alt="LiveServer" src="https://raw.githubusercontent.com/kevinmelecio7/JavaScript_Projects/refs/heads/main/15-PROYECTO-Carrito/ShoppingCart_2.jpg" >
+</a>
+<a target="_blank" align="center">
+  <img align="right" width="500" alt="LiveServer" src="https://raw.githubusercontent.com/kevinmelecio7/JavaScript_Projects/refs/heads/main/15-PROYECTO-Carrito/ShoppingCart_3.jpg" >
+</a>
+<p align="left">The project aims to develop a functional shopping cart web application using JavaScript, allowing users to add, remove, and view selected products in real time, with an interactive and dynamic interface that simulates the behavior of an online store.</p>
+<br/>
+<p align="left">As an example, we use an online store that sells phone accessories. The customer can browse the product catalog, which displays the item name, category, rating, previous price (if the product is on sale), and the price.</p>
+<br/>
+<p align="left">If the user is interested in purchasing a product, the application displays a button below each item that says "Add to Cart." Clicking the button adds it to the cart. The list is a list of items with product information. The user can select the number of items they wish to add.</p>
+<br/>
+<p align="left">When the user wishes to review the shopping cart, they will be able to view the list of products they are about to purchase. The right button on each product allows you to delete only one item. If they wish to delete the entire list, they can click "Empty Cart."</p>
 
 
