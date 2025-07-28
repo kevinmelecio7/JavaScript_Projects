@@ -40,6 +40,7 @@
 ## 📑 Contents
 
 - [🛒 Shopping Cart](#-shopping-cart)
+- [📦 Send Emails Simulation](#-send-emails-simulation)
 
 <br/>
 
@@ -63,5 +64,32 @@
 <p align="left">If the user is interested in purchasing a product, the application displays a button below each item that says "Add to Cart." Clicking the button adds it to the cart. The list is a list of items with product information. The user can select the number of items they wish to add.</p>
 <br/>
 <p align="left">When the user wishes to review the shopping cart, they will be able to view the list of products they are about to purchase. The right button on each product allows you to delete only one item. If they wish to delete the entire list, they can click "Empty Cart."</p>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+---
+
+## 📦 Send Emails Simulation 
+
+<a target="_blank" align="center">
+  <img align="right" width="500" alt="LiveServer" src="https://raw.githubusercontent.com/kevinmelecio7/JavaScript_Projects/refs/heads/main/16-PROYECTO-EnviarEmail/SendEmailSimulator_1.jpg" >
+</a>
+<a target="_blank" align="center">
+  <img align="right" width="500" alt="LiveServer" src="https://raw.githubusercontent.com/kevinmelecio7/JavaScript_Projects/refs/heads/main/16-PROYECTO-EnviarEmail/SendEmailSimulator_2.jpg" >
+</a>
+<a target="_blank" align="center">
+  <img align="right" width="500" alt="LiveServer" src="https://raw.githubusercontent.com/kevinmelecio7/JavaScript_Projects/refs/heads/main/16-PROYECTO-EnviarEmail/SendEmailSimulator_3.jpg" >
+</a>
+<p align="left">The project aims to develop a functional web application for form validation using JavaScript. The project simulates sending emails using a form</p>
+<br/>
+<p align="left">As an example, we use a form from a store where users want to enter shipping information so their items can arrive at the correct destination. The shipping information requested in this example is: name, email, phone number, and address. There are only three required fields: name, email, and address.</p>
+<br/>
+<p align="left">The form includes validations performed in JS, creating a variable that validates whether the form fields are correctly filled out so that the Submit button can be activated. If the user wishes to delete their input, they can also refresh the form and continue with the "Submission Data" process. Validations to be considered in the form:</p>
+
+<p align="left">*There cannot be nulls in the required fields (Name, Email, and Address).</p>
+<p align="left">*The email field must have the structure of an email.</p>
+<p align="left">*The phone number field must have only 10 digits.</p>
+
+<p align="left">If the fields meet the validations, the "Submit" button will be enabled so that data can be submitted. When the user clicks the Submit button, a simulation of the upload will be displayed using a spinner. A spinner is the visual component that indicates that an operation is in progress, that content is being uploaded, or that an action is being processed. It then displays a message stating "The record was saved successfully."</p>
 
 
