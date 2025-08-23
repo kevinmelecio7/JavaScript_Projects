@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kanban con LocalStorage</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <style>
+        body {
+            background: #1e1e2e;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #ffffff;
+        }
+        h2 {
+            color: #dcdcdc;
+            border-bottom: 2px solid #444;
+            padding-bottom: 5px;
+        }
+        .column {
+            background: #2a2a40;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+        }
+        .task {
+            background: #3a3a55;
+            color: #f5f5f5;
+            padding: 10px;
+            border-radius: 8px;
+            margin: 8px 0;
+            border-left: 5px solid #6c63ff;
+        }
+        textarea {
+            background: #1c1c2c;
+            color: #f0f0f0;
+            border: 1px solid #444;
+            border-radius: 6px;
+            resize: none;
+        }
+        .button-primary {
+            background: #6c63ff;
+            border: none;
+            border-radius: 6px;
+            color: #fff;
+            transition: background 0.3s ease;
+        }
+        .button-primary:hover {
+            background: #5146d9;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="contenido">
+        <div class="container">
+
+            <h1>📌 Tablero Kanban</h1>
+            <div class="row">
+
+                <!-- Columna To Do -->
+                <div class="four columns column">
+                    <h2>To Do</h2>
+                    <form id="todo">
+                        <textarea id="tweet-todo" class="u-full-width" placeholder="Nueva tarea..."></textarea>
+                        <input type="submit" class="button u-full-width button-primary" value="Agregar tarjeta">
+                    </form>
+                    <div id="lista-todo"></div>
+                </div>
+
+                <!-- Columna Doing -->
+                <div class="four columns column">
+                    <h2>Doing</h2>
+                    <form id="doing">
+                        <textarea id="tweet-doing" class="u-full-width" placeholder="Nueva tarea..."></textarea>
+                        <input type="submit" class="button u-full-width button-primary" value="Agregar tarjeta">
+                    </form>
+                    <div id="lista-doing"></div>
+                </div>
+
+                <!-- Columna Done -->
+                <div class="four columns column">
+                    <h2>Done</h2>
+                    <form id="done">
+                        <textarea id="tweet-done" class="u-full-width" placeholder="Nueva tarea..."></textarea>
+                        <input type="submit" class="button u-full-width button-primary" value="Agregar tarjeta">
+                    </form>
+                    <div id="lista-done"></div>
+                </div>
+
+            </div>
+        </div>
+    </div> <!--#contenido-->
+
+    <script src="js/app.js"></script>
+</body>
+</html>
