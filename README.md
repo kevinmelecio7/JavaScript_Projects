@@ -114,7 +114,7 @@
 <br/>
 <p align="left">If no list is selected, it displays all the laptops the store has available. As an example, we have the following image: a search for an HP laptop with 512 GB SSD storage. In this case, it shows two laptops as a result. This filter is used in online stores and in various web and mobile applications.</p>
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ---
 
